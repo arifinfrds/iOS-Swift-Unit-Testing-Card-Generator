@@ -15,6 +15,8 @@
 		92B82096253AAB400083FC3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92B82094253AAB400083FC3F /* LaunchScreen.storyboard */; };
 		92B820A1253AAB400083FC3F /* CardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B820A0253AAB400083FC3F /* CardTests.swift */; };
 		92B820AC253AAB410083FC3F /* CardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B820AB253AAB410083FC3F /* CardUITests.swift */; };
+		92B820BD253AAB530083FC3F /* CardGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B820BC253AAB530083FC3F /* CardGenerator.swift */; };
+		92B820C5253AABEE0083FC3F /* CardGeneratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92B820C4253AABEE0083FC3F /* CardGeneratorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		92B820A7253AAB400083FC3F /* CardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92B820AB253AAB410083FC3F /* CardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUITests.swift; sourceTree = "<group>"; };
 		92B820AD253AAB410083FC3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92B820BC253AAB530083FC3F /* CardGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGenerator.swift; sourceTree = "<group>"; };
+		92B820C4253AABEE0083FC3F /* CardGeneratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGeneratorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,7 @@
 				92B82092253AAB400083FC3F /* Assets.xcassets */,
 				92B82094253AAB400083FC3F /* LaunchScreen.storyboard */,
 				92B82097253AAB400083FC3F /* Info.plist */,
+				92B820BC253AAB530083FC3F /* CardGenerator.swift */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -115,6 +120,7 @@
 			children = (
 				92B820A0253AAB400083FC3F /* CardTests.swift */,
 				92B820A2253AAB400083FC3F /* Info.plist */,
+				92B820C4253AABEE0083FC3F /* CardGeneratorTests.swift */,
 			);
 			path = CardTests;
 			sourceTree = "<group>";
@@ -261,6 +267,7 @@
 				92B8208E253AAB400083FC3F /* ViewController.swift in Sources */,
 				92B8208A253AAB400083FC3F /* AppDelegate.swift in Sources */,
 				92B8208C253AAB400083FC3F /* SceneDelegate.swift in Sources */,
+				92B820BD253AAB530083FC3F /* CardGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92B820A1253AAB400083FC3F /* CardTests.swift in Sources */,
+				92B820C5253AABEE0083FC3F /* CardGeneratorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
